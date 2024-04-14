@@ -1,0 +1,19 @@
+{
+  "name": "exercism-rust",
+  "dockerComposeFile": [
+    "docker-compose.yml"
+  ],
+  "service": "exercism-rust",
+  "workspaceFolder": "/workspace",
+  "shutdownAction": "stopCompose",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "rust-lang.rust-analyzer",
+        "tamasfe.even-better-toml",
+        "GitHub.copilot-chat",
+        "GitHub.copilot"
+      ]
+    }
+  }
+}
